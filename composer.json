@@ -12,18 +12,7 @@
   "autoload": {
     "psr-4": {
       "Ywnsyage\\Clickhouse\\": "src"
-    },
-    "files": [
-      "src/functions.php"
-    ]
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Ywnsyage\\Clickhouse\\": "tests"
-    },
-    "files": [
-      "src/functions.php"
-    ]
+    }
   },
   "require": {
     "php": "^7.1|^8.0",

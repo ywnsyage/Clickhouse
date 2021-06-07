@@ -3,7 +3,7 @@
 namespace  Ywnsyage\ClickhouseCommon\Database;
 
 use Ywnsyage\ClickhouseBuilder\Query\Grammar;
-use Ywnsyage\ClickHouse\Database\Query\Builder;
+use Ywnsyage\ClickhouseCommon\Database\Query\Builder;
 
 class Connection extends \Ywnsyage\ClickhouseBuilder\Integrations\Laravel\Connection
 {

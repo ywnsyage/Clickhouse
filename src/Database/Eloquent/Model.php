@@ -20,7 +20,7 @@ use Illuminate\Database\Eloquent\Concerns\GuardsAttributes;
 //use Illuminate\Database\Eloquent\Concerns\HasRelationships;
 use Ywnsyage\ClickhouseCommon\Database\Eloquent\Concerns\HasRelationships;
 use Illuminate\Database\ConnectionResolverInterface as Resolver;
-use Ywnsyage\ClickHouseCommon\Database\Query\Builder as QueryBuilder;
+use Ywnsyage\ClickhouseCommon\Database\Query\Builder as QueryBuilder;
 
 /**
  * @mixin Model

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ywnsyage\ClickHouseCommon\Database\Query;
+namespace Ywnsyage\ClickhouseCommon\Database\Query;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
@@ -10,7 +10,7 @@ use Ywnsyage\Clickhouse\Common\Format;
 use Illuminate\Support\Traits\Macroable;
 use Ywnsyage\ClickhouseBuilder\Query\Grammar;
 use Ywnsyage\ClickhouseBuilder\Query\BaseBuilder;
-use Ywnsyage\ClickHouseCommon\Database\Connection;
+use Ywnsyage\ClickhouseCommon\Database\Connection;
 
 
 

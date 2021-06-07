@@ -6,7 +6,7 @@ namespace Ywnsyage\ClickhouseCommon\Database\Eloquent\Concerns;
 
 use LogicException;
 use Illuminate\Database\Eloquent\Relations\Relation as BaseRelation;
-use Ywnsyage\ClickHouse\Database\Eloquent\Relations\Relation;
+use Ywnsyage\ClickHouseCommon\Database\Eloquent\Relations\Relation;
 use Illuminate\Database\Eloquent\Concerns\HasAttributes as BaseHasAttributes;
 
 trait HasAttributes

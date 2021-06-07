@@ -1,10 +1,10 @@
 <?php
 
-namespace Ywnsyage\ClickHouse\Database\Eloquent\Relations\Concerns;
+namespace Ywnsyage\ClickhouseCommon\Database\Eloquent\Relations\Concerns;
 
 
 //use Illuminate\Database\Eloquent\Model;
-use Ywnsyage\ClickHouse\Database\Eloquent\Model;
+use Ywnsyage\ClickhouseCommon\Database\Eloquent\Model;
 
 trait SupportsDefaultModels
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ywnsyage\ClickHouse\Database\Eloquent;
+namespace Ywnsyage\ClickhouseCommon\Database\Eloquent;
 
 use ArrayAccess;
 use JsonSerializable;
@@ -10,7 +10,7 @@ use Illuminate\Support\Str;
 use Illuminate\Contracts\Support\Jsonable;
 use Illuminate\Contracts\Support\Arrayable;
 use Ywnsyage\ClickhouseBuilder\Query\Grammar;
-use Ywnsyage\ClickHouse\Database\Connection;
+use Ywnsyage\ClickhouseCommon\Database\Connection;
 use Illuminate\Database\ConnectionResolverInterface;
 use Illuminate\Database\Eloquent\Concerns\HasEvents;
 use Illuminate\Database\Eloquent\JsonEncodingException;
@@ -18,9 +18,9 @@ use Illuminate\Database\Eloquent\MassAssignmentException;
 use Illuminate\Database\Eloquent\Concerns\HidesAttributes;
 use Illuminate\Database\Eloquent\Concerns\GuardsAttributes;
 //use Illuminate\Database\Eloquent\Concerns\HasRelationships;
-use Ywnsyage\ClickHouse\Database\Eloquent\Concerns\HasRelationships;
+use Ywnsyage\ClickhouseCommon\Database\Eloquent\Concerns\HasRelationships;
 use Illuminate\Database\ConnectionResolverInterface as Resolver;
-use Ywnsyage\ClickHouse\Database\Query\Builder as QueryBuilder;
+use Ywnsyage\ClickHouseCommon\Database\Query\Builder as QueryBuilder;
 
 /**
  * @mixin Model
@@ -507,7 +507,7 @@ abstract class Model implements ArrayAccess, Arrayable, Jsonable, JsonSerializab
      *
      * @return \Illuminate\Database\Connection
      */
-    public function getConnection(): \Illuminate\Database\Connection
+    public function getConnection()
     {
         return static::resolveConnection($this->getConnectionName());
     }

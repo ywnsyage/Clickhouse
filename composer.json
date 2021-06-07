@@ -1,7 +1,7 @@
 {
   "name": "ywnsyage/clickhouse",
   "type": "library",
-  "description": "Clickhouse PHP package",
+  "description": "ClickhouseCommon PHP package",
   "license": "MIT",
   "authors": [
     {
@@ -11,7 +11,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Ywnsyage\\Clickhouse\\": "src"
+      "Ywnsyage\\ClickhouseCommon\\": "src"
     }
   },
   "require": {

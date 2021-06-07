@@ -1,11 +1,11 @@
 <?php
 
-namespace Ywnsyage\ClickHouse\Database\Eloquent\Relations;
+namespace Ywnsyage\ClickhouseCommon\Database\Eloquent\Relations;
 
 use Closure;
 use Illuminate\Support\Arr;
 //use Illuminate\Database\Eloquent\Model;
-use Ywnsyage\ClickHouse\Database\Eloquent\Model;
+use Ywnsyage\ClickhouseCommon\Database\Eloquent\Model;
 use Illuminate\Support\Traits\Macroable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Query\Expression;

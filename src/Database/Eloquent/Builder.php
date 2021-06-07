@@ -1,6 +1,6 @@
 <?php
 
-namespace Ywnsyage\ClickHouse\Database\Eloquent;
+namespace Ywnsyage\ClickhouseCommon\Database\Eloquent;
 
 use Closure;
 use BadMethodCallException;
@@ -12,7 +12,7 @@ use Illuminate\Database\Concerns\BuildsQueries;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\Eloquent\RelationNotFoundException;
-use Ywnsyage\ClickHouse\Database\Query\Builder as QueryBuilder;
+use Ywnsyage\ClickhouseCommon\Database\Query\Builder as QueryBuilder;
 
 /**
  * @mixin QueryBuilder
@@ -24,14 +24,14 @@ class Builder
     /**
      * The base query builder instance.
      *
-     * @var \Ywnsyage\ClickHouse\Database\Query\Builder
+     * @var \Ywnsyage\ClickHouseCommon\Database\Query\Builder
      */
     protected $query;
 
     /**
      * The model being queried.
      *
-     * @var \Ywnsyage\ClickHouse\Database\Eloquent\Model
+     * @var \Ywnsyage\ClickHouseCommon\Database\Eloquent\Model
      */
     protected $model;
 
@@ -262,7 +262,7 @@ class Builder
      * Execute the query as a "select" statement.
      *
      * @return Collection|static[]
-     * @throws \Ywnsyage\Clickhouse\Exceptions\ClientException
+     * @throws \Ywnsyage\ClickhouseCommon\Exceptions\ClientException
      */
     public function get()
     {
@@ -282,7 +282,7 @@ class Builder
      * Get the hydrated models without eager loading.
      *
      * @return Model[]
-     * @throws \Ywnsyage\Clickhouse\Exceptions\ClientException
+     * @throws \Ywnsyage\ClickhouseCommon\Exceptions\ClientException
      */
     public function getModels(): array
     {

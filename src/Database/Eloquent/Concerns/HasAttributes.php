@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ywnsyage\ClickHouse\Database\Eloquent\Concerns;
+namespace Ywnsyage\ClickhouseCommon\Database\Eloquent\Concerns;
 
 use LogicException;
 use Illuminate\Database\Eloquent\Relations\Relation as BaseRelation;

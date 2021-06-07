@@ -1,6 +1,6 @@
 <?php
 
-namespace  Ywnsyage\Clickhouse\Database;
+namespace  Ywnsyage\ClickhouseCommon\Database;
 
 use Ywnsyage\ClickhouseBuilder\Query\Grammar;
 use Ywnsyage\ClickHouse\Database\Query\Builder;

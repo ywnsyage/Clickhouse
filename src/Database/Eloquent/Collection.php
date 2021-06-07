@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ywnsyage\ClickHouse\Database\Eloquent;
+namespace Ywnsyage\ClickhouseCommon\Database\Eloquent;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection as SupportCollection;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Ywnsyage\ClickHouse\Database\Eloquent\Relations;
+namespace Ywnsyage\ClickhouseCommon\Database\Eloquent\Relations;
 
 //use Illuminate\Database\Eloquent\Model;
-use Ywnsyage\ClickHouse\Database\Eloquent\Model;
+use Ywnsyage\ClickhouseCommon\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 //use Illuminate\Database\Eloquent\Relations\Relation;

@@ -1,2 +1,2 @@
-# Clickhouse
-Clickhouse PHP package
+# ClickhouseCommon
+ClickhouseCommon PHP package

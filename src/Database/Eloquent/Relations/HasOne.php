@@ -1,13 +1,13 @@
 <?php
 
-namespace Ywnsyage\ClickHouse\Database\Eloquent\Relations;
+namespace Ywnsyage\ClickhouseCommon\Database\Eloquent\Relations;
 
 
 //use Illuminate\Database\Eloquent\Model;
-use Ywnsyage\ClickHouse\Database\Eloquent\Model;
+use Ywnsyage\ClickhouseCommon\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Collection;
 //use Illuminate\Database\Eloquent\Relations\Concerns\SupportsDefaultModels;
-use Ywnsyage\ClickHouse\Database\Eloquent\Relations\Concerns\SupportsDefaultModels;
+use Ywnsyage\ClickhouseCommon\Database\Eloquent\Relations\Concerns\SupportsDefaultModels;
 //use Illuminate\Database\Eloquent\Relations\HasOneOrMany;
 
 class HasOne extends HasOneOrMany

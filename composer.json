@@ -1,0 +1,43 @@
+{
+  "name": "ywnsyage/clickhouse",
+  "type": "library",
+  "description": "Clickhouse PHP package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ywnsyage",
+      "email": "lost0719@163.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ywnsyage\\Clickhouse\\": "src"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ywnsyage\\Clickhouse\\": "tests"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "require": {
+    "php": "^7.1|^8.0",
+    "ywnsyage/clickhouse-builder": "^5.1"
+  },
+  "require-dev": {
+    "illuminate/database": "5.*",
+    "phpunit/phpunit": "^6.1",
+    "mockery/mockery": "^0.9.9",
+    "illuminate/events": "5.*",
+    "illuminate/config": "5.*",
+    "illuminate/pagination": "5.*"
+  },
+  "scripts": {
+    "test": "phpunit --coverage-text --colors=never"
+  }
+}
